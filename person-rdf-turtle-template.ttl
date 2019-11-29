@@ -5,14 +5,14 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 
 # Person triples
-<{{&personiri}}> a obo:NCBITaxon_9606;
-obo:ERO_0001966 <{{&genderiri}}> .
+<{{&personIri}}> a obo:NCBITaxon_9606;
+obo:ERO_0001966 <{{&genderIri}}> .
 
 # Gender triples
-<{{&genderiri}}> a obo:NCIT_C28421;
-sio:SIO_000300 <{{&sexiri}}> .
+<{{&genderIri}}> a obo:NCIT_C28421;
+sio:SIO_000300 <{{&sexIri}}> .
 
 # Peron id triples
-<{{&personidiri}}> a edam:data_0842;
-dct:identifier "{{personid}}"^^xsd:string;
-obo:IAO_0000219 <{{&personiri}}> .
+<{{&personIdIri}}> a edam:data_0842;
+dct:identifier "{{personId}}"^^xsd:string;
+obo:IAO_0000219 <{{&personIri}}> .
