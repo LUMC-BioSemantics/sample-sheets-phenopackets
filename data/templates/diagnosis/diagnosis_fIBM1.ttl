@@ -1,0 +1,17 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix edam: <http://edamontology.org/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <https://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+# Person triples
+<https://ejrd.hackathon.eu/person/fIBM1> a obo:NCBITaxon_9606;
+obo:ERO_0002100 <https://ejrd.hackathon.eu/diagnosis/fIBM1_http://purl.obolibrary.org/obo/DOID_3429> .
+
+# Diagnosis triples
+<https://ejrd.hackathon.eu/diagnosis/fIBM1_http://purl.obolibrary.org/obo/DOID_3429> a sio:SIO_001331;
+rdf:value <https://ejrd.hackathon.eu/disease/fIBM1_http://purl.obolibrary.org/obo/DOID_3429> .
+
+# Disease triples
+<https://ejrd.hackathon.eu/disease/fIBM1_http://purl.obolibrary.org/obo/DOID_3429> a <http://purl.obolibrary.org/obo/DOID_3429>.

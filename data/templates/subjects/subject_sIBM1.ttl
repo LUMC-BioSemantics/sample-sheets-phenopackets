@@ -1,0 +1,18 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix edam: <http://edamontology.org/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+# Person triples
+<https://ejrd.hackathon.eu/person/sIBM1> a obo:NCBITaxon_9606;
+obo:ERO_0001966 <https://ejrd.hackathon.eu/gender/sIBM1> .
+
+# Gender triples
+<https://ejrd.hackathon.eu/gender/sIBM1> a obo:NCIT_C28421;
+sio:SIO_000300 <http://purl.obolibrary.org/obo/NCIT_C46113> .
+
+# Peron id triples
+<https://ejrd.hackathon.eu/person/sIBM1/identifier> a edam:data_0842;
+dct:identifier "sIBM1"^^xsd:string;
+obo:IAO_0000219 <https://ejrd.hackathon.eu/person/sIBM1> .

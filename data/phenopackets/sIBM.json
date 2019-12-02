@@ -1,0 +1,310 @@
+{
+    "id": "sIBM",
+    "members": [
+        {
+            "id": "f596165cc01c47bb8cb62b877d0651e2",
+            "subject": {
+                "id": "sIBM1",
+                "sex": {
+                    "sex": "1"
+                },
+                "taxonomy": {
+                    "id": "NCBITaxon:9606",
+                    "label": "Homo sapiens"
+                }
+            },
+            "phenotypic_features": [],
+            "biosamples": [
+                {
+                    "id": "201",
+                    "individual_id": "sIBM1",
+                    "sampled_tissue": {
+                        "id": "FMA:22431",
+                        "label": "Vastus lateralis"
+                    },
+                    "phenotypic_features": [
+                        {
+                            "type": {
+                                "id": "HP:0003805",
+                                "label": "Rimmed vacuoles"
+                            },
+                            "severity": {
+                                "id": "HP:0003805",
+                                "label": "Severe"
+                            }
+                        }
+                    ],
+                    "individual_age_at_collection": {
+                        "age": "P68Y"
+                    },
+                    "is_control_sample": "FALSE"
+                }
+            ],
+            "diseases": [
+                {
+                    "term": {
+                        "id": "DOID:3429",
+                        "label": "inclusion body myositis"
+                    },
+                    "onset": {
+                        "age": "P64Y"
+                    }
+                }
+            ],
+            "meta_data": {
+                "created": "2019-12-02 16:33:05.352309",
+                "created_by": "Jon Garrido-Aguirre",
+                "resources": [
+                    {
+                        "id": "doid",
+                        "name": "Human Disease Ontology",
+                        "namespace_prefix": "DOID",
+                        "url": "http://purl.obolibrary.org/obo/doid.owl",
+                        "version": "2019-11-20",
+                        "iri_prefix": "http://purl.obolibrary.org/obo/DOID_"
+                    },
+                    {
+                        "id": "fma",
+                        "name": "Foundational Model of Anatomy Ontology (subset)",
+                        "namespace_prefix": "FMA",
+                        "url": "http://purl.obolibrary.org/obo/fma.owl",
+                        "version": "2019-11-21",
+                        "iri_prefix": "http://purl.obolibrary.org/obo/FMA_"
+                    },
+                    {
+                        "id": "hp",
+                        "name": "Human Phenotype Ontology",
+                        "namespace_prefix": "HP",
+                        "url": "http://purl.obolibrary.org/obo/hp.owl",
+                        "version": "2019-11-08",
+                        "iri_prefix": "http://purl.obolibrary.org/obo/HP_"
+                    },
+                    {
+                        "id": "ncbitaxon",
+                        "name": "NCBI organismal classification",
+                        "namespace_prefix": "NCBITaxon",
+                        "url": "http://purl.obolibrary.org/obo/ncbitaxon.owl",
+                        "version": "2018-07-27",
+                        "iri_prefix": "http://purl.obolibrary.org/obo/NCBITaxon_"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "94beca14f8a54e2c9d3a38c06b8ed19e",
+            "subject": {
+                "id": "sIBM2",
+                "sex": {
+                    "sex": "2"
+                },
+                "taxonomy": {
+                    "id": "NCBITaxon:9606",
+                    "label": "Homo sapiens"
+                }
+            },
+            "phenotypic_features": [],
+            "biosamples": [
+                {
+                    "id": "1131",
+                    "individual_id": "sIBM2",
+                    "sampled_tissue": {
+                        "id": "FMA:22532",
+                        "label": "Tibialis anterior"
+                    },
+                    "phenotypic_features": [
+                        {
+                            "type": {
+                                "id": "HP:0003805",
+                                "label": "Rimmed vacuoles"
+                            },
+                            "severity": {
+                                "id": "HP:0003805",
+                                "label": "Moderate"
+                            }
+                        }
+                    ],
+                    "individual_age_at_collection": {
+                        "age": "P61Y"
+                    },
+                    "is_control_sample": "FALSE"
+                }
+            ],
+            "diseases": [
+                {
+                    "term": {
+                        "id": "DOID:3429",
+                        "label": "inclusion body myositis"
+                    },
+                    "onset": {
+                        "age": "P50Y"
+                    }
+                }
+            ],
+            "meta_data": {
+                "created": "2019-12-02 16:33:05.352309",
+                "created_by": "Jon Garrido-Aguirre",
+                "resources": [
+                    {
+                        "id": "doid",
+                        "name": "Human Disease Ontology",
+                        "namespace_prefix": "DOID",
+                        "url": "http://purl.obolibrary.org/obo/doid.owl",
+                        "version": "2019-11-20",
+                        "iri_prefix": "http://purl.obolibrary.org/obo/DOID_"
+                    },
+                    {
+                        "id": "fma",
+                        "name": "Foundational Model of Anatomy Ontology (subset)",
+                        "namespace_prefix": "FMA",
+                        "url": "http://purl.obolibrary.org/obo/fma.owl",
+                        "version": "2019-11-21",
+                        "iri_prefix": "http://purl.obolibrary.org/obo/FMA_"
+                    },
+                    {
+                        "id": "hp",
+                        "name": "Human Phenotype Ontology",
+                        "namespace_prefix": "HP",
+                        "url": "http://purl.obolibrary.org/obo/hp.owl",
+                        "version": "2019-11-08",
+                        "iri_prefix": "http://purl.obolibrary.org/obo/HP_"
+                    },
+                    {
+                        "id": "ncbitaxon",
+                        "name": "NCBI organismal classification",
+                        "namespace_prefix": "NCBITaxon",
+                        "url": "http://purl.obolibrary.org/obo/ncbitaxon.owl",
+                        "version": "2018-07-27",
+                        "iri_prefix": "http://purl.obolibrary.org/obo/NCBITaxon_"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "60788d4cf0a149828c7da7e401924a45",
+            "subject": {
+                "id": "sIBM3",
+                "sex": {
+                    "sex": "1"
+                },
+                "taxonomy": {
+                    "id": "NCBITaxon:9606",
+                    "label": "Homo sapiens"
+                }
+            },
+            "phenotypic_features": [],
+            "biosamples": [
+                {
+                    "id": "2598",
+                    "individual_id": "sIBM3",
+                    "sampled_tissue": {
+                        "id": "FMA:22431",
+                        "label": "Vastus lateralis"
+                    },
+                    "phenotypic_features": [
+                        {
+                            "type": {
+                                "id": "HP:0003805",
+                                "label": "Rimmed vacuoles"
+                            },
+                            "severity": {
+                                "id": "HP:0003805",
+                                "label": "Severe"
+                            }
+                        }
+                    ],
+                    "individual_age_at_collection": {
+                        "age": "P71Y"
+                    },
+                    "is_control_sample": "FALSE"
+                }
+            ],
+            "diseases": [
+                {
+                    "term": {
+                        "id": "DOID:3429",
+                        "label": "inclusion body myositis"
+                    },
+                    "onset": {
+                        "age": "P63Y"
+                    }
+                }
+            ],
+            "meta_data": {
+                "created": "2019-12-02 16:33:05.352309",
+                "created_by": "Jon Garrido-Aguirre",
+                "resources": [
+                    {
+                        "id": "doid",
+                        "name": "Human Disease Ontology",
+                        "namespace_prefix": "DOID",
+                        "url": "http://purl.obolibrary.org/obo/doid.owl",
+                        "version": "2019-11-20",
+                        "iri_prefix": "http://purl.obolibrary.org/obo/DOID_"
+                    },
+                    {
+                        "id": "fma",
+                        "name": "Foundational Model of Anatomy Ontology (subset)",
+                        "namespace_prefix": "FMA",
+                        "url": "http://purl.obolibrary.org/obo/fma.owl",
+                        "version": "2019-11-21",
+                        "iri_prefix": "http://purl.obolibrary.org/obo/FMA_"
+                    },
+                    {
+                        "id": "hp",
+                        "name": "Human Phenotype Ontology",
+                        "namespace_prefix": "HP",
+                        "url": "http://purl.obolibrary.org/obo/hp.owl",
+                        "version": "2019-11-08",
+                        "iri_prefix": "http://purl.obolibrary.org/obo/HP_"
+                    },
+                    {
+                        "id": "ncbitaxon",
+                        "name": "NCBI organismal classification",
+                        "namespace_prefix": "NCBITaxon",
+                        "url": "http://purl.obolibrary.org/obo/ncbitaxon.owl",
+                        "version": "2018-07-27",
+                        "iri_prefix": "http://purl.obolibrary.org/obo/NCBITaxon_"
+                    }
+                ]
+            }
+        }
+    ],
+    "meta_data": {
+        "created": "2019-12-02 16:33:05.352309",
+        "created_by": "Jon Garrido-Aguirre",
+        "resources": [
+            {
+                "id": "doid",
+                "name": "Human Disease Ontology",
+                "namespace_prefix": "DOID",
+                "url": "http://purl.obolibrary.org/obo/doid.owl",
+                "version": "2019-11-20",
+                "iri_prefix": "http://purl.obolibrary.org/obo/DOID_"
+            },
+            {
+                "id": "fma",
+                "name": "Foundational Model of Anatomy Ontology (subset)",
+                "namespace_prefix": "FMA",
+                "url": "http://purl.obolibrary.org/obo/fma.owl",
+                "version": "2019-11-21",
+                "iri_prefix": "http://purl.obolibrary.org/obo/FMA_"
+            },
+            {
+                "id": "hp",
+                "name": "Human Phenotype Ontology",
+                "namespace_prefix": "HP",
+                "url": "http://purl.obolibrary.org/obo/hp.owl",
+                "version": "2019-11-08",
+                "iri_prefix": "http://purl.obolibrary.org/obo/HP_"
+            },
+            {
+                "id": "ncbitaxon",
+                "name": "NCBI organismal classification",
+                "namespace_prefix": "NCBITaxon",
+                "url": "http://purl.obolibrary.org/obo/ncbitaxon.owl",
+                "version": "2018-07-27",
+                "iri_prefix": "http://purl.obolibrary.org/obo/NCBITaxon_"
+            }
+        ]
+    }
+}
