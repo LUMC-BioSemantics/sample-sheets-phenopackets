@@ -1,0 +1,6 @@
+sample_id,subject_id,cohort_id,term,term,sex,sample_tissue,onset,individual_age_at_collection,,diagnostic_markers     ,diagnostic_markers     ,diagnostic_markers     ,diagnostic_markers     ,,,,,,,,is_control_sample
+Sample,ID,Cohort,Disease,Orphanet,Gender,Muscle,Age of onset,Biopsy_Age,RIN,Rimmed Vacuoles,p62 aggregates,TDP43 aggregates,Severity of progression,RNA extraction date,RNA extraction kit,Sequencing batch,Platform,Sequencing reads length,Sequencing depth,Sequencing center,is_control_sample
+201,sIBM1,sIBM,sIBM,ORPHA:611,F,VL,64,68,7.2,++,++,++,++,12.10.2018,Qiagen,Batch1,Illumina,75,34,WTCHG,FALSE
+1131,sIBM2,sIBM,sIBM,ORPHA:611,M,TA,50,61,2.6,+,+,+,+,12.10.2018,Qiagen,Batch1,Illumina,75,50,WTCHG,FALSE
+2231,fIBM1,fIBM,sIBM,ORPHA:611,M,VL,45,60,4.9,+++,+++,+++,+++,12.5.2019,Qiagen,Batch2,Illumina,75,34,WTCHG,FALSE
+2598,sIBM3,sIBM,sIBM,ORPHA:611,F,VL,63,71,4.1,++,++,++,++,12.5.2019,Qiagen,Batch2,Illumina,75,50,WTCHG,FALSE
