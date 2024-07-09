@@ -9,4 +9,4 @@ pyrsistent==0.15.6
 pystache==0.5.4
 python-jsonschema-objects==0.3.11
 six==1.13.0
-zipp==0.6.0
+zipp==3.19.1
